@@ -1,0 +1,58 @@
+.footer{
+    padding: 64px 0;
+}
+.footer__block{
+    @include flexBetween;
+    flex-direction: column;
+    align-items: start;
+}
+.touch__list{
+    padding-top: 64px;
+    @include flexBetween;
+    align-items: start;
+    gap: 200px;
+}
+.touch__item{
+    @include flexBetween;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+}
+.touch__title{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: var(--c1-a);
+}
+.touch__text{
+    @include link;
+}
+.product__block{
+    margin-top: 48px;
+}
+.product__title{
+    margin-bottom: 16px;
+}
+.product__btn{
+    @include button;
+    margin-top: 16px;
+    margin-right: 26px;
+    font-size: 12px;
+    border: none;
+    gap: 26px;
+}
+.fruit__block{
+    @include flexBetween;
+}
+.fruit__list{
+    @include flexBetween;
+    gap: 16px;
+}
+.fruit__item{
+    @include flexBetween;
+    gap: 24px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+}
